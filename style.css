@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    max-width: 36rem;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 2rem;
+}
+
+.container .image-container img{
+    width: 32rem;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 1rem;
+    margin: 2rem;
+}
+
+.container .text-container{
+    margin: 0 2rem;
+}
+
+.container .text-container .heading{
+    color: hsl(0, 0%, 100%);
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    font-weight: 400;
+}
+
+.container .text-container .paragraph{
+    color: hsl(215, 51%, 70%);
+    font-size: 2rem;
+    font-weight: 300;
+    margin-bottom: 2rem;
+}
+
+.container .text-container .numbers{
+    display: flex;
+    font-size: 1.6rem;
+    justify-content: space-between;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    border-bottom: 0.1rem solid hsl(215, 32%, 27%);
+}
+
+.text-container svg{
+    position: relative;
+    top: 0.3rem;
+    right: 1rem;
+}
+
+.text-container .number{
+    color: hsl(178, 100%, 50%);
+    margin-bottom: 1.5rem;
+    margin-left: 1rem;
+}
+
+.text-container .days-left{
+    color: hsl(215, 51%, 70%);
+    margin-bottom: 1.5rem;
+}
+
+.text-container .footer{
+    display: flex;
+    margin: 1.5rem 0 3.5rem 0;
+}
+
+.text-container .footer .person-image img{
+    width: 3.5rem;
+    height: 3.5rem;
+    border: 0.1rem solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+}
+
+.text-container .footer .created-by{
+    font-size: 1.6rem;
+    font-weight: 300;
+    color: hsl(0, 0%, 100%);
+    align-self: center;
+    padding-left: 2rem;
+}
+
+.footer .created-by span{
+    color: hsl(215, 51%, 70%);
+    padding-right: 0.5rem;
+}
