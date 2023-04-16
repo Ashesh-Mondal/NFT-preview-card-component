@@ -29,6 +29,12 @@ body{
     border-radius: 2rem;
 }
 
+.container .image-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .container .image-container .img-view{
     background: hsla(178, 80%, 50%, 0.5);
     position: absolute;
@@ -37,9 +43,9 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    top: 50.5%;
+    /* top: 50.5%;
     left: 50%;
-    transform: translate(-50%, -90%);
+    transform: translate(-50%, -90%); */
     transform-origin: center;
     border-radius: 1rem;
     opacity: 0;
