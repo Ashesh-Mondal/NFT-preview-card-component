@@ -143,3 +143,34 @@ body{
     cursor: pointer;
     color: hsl(178, 100%, 50%);
 }
+
+
+
+/* ######################### Media query ########################### */
+
+@media (max-width: 370px){
+
+    :root{
+        font-size: 50%;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        max-width: 30rem;
+        background-color: hsl(216, 50%, 16%);
+        border-radius: 1rem;
+    }
+
+    .container .image-container img{
+        width: 26rem;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 0.5rem;
+        margin: 2rem;
+    }
+
+    .container .image-container .img-view{
+        opacity: 0;
+    }
+}
