@@ -29,6 +29,19 @@ body{
     border-radius: 2rem;
 }
 
+.container .image-container .img-view{
+    background: hsla(178, 80%, 50%, 0.5);
+    position: absolute;
+    width: 320px;
+    height: 320px;
+    top: 50.5%;
+    left: 50%;
+    transform: translate(-50%, -90%);
+    transform-origin: center;
+    border-radius: 1rem;
+    opacity: 1;
+}
+
 .container .image-container img{
     width: 32rem;
     object-fit: cover;
@@ -36,6 +49,17 @@ body{
     border-radius: 1rem;
     margin: 2rem;
 }
+
+
+
+/* ######################### active statue styling ############################ */
+
+.container .image-container img:hover{
+    cursor: pointer;
+    opacity: 2;
+}
+
+/* ########################### text-container styling ############################# */
 
 .container .text-container{
     margin: 0 2rem;
