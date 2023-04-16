@@ -34,6 +34,9 @@ body{
     position: absolute;
     width: 320px;
     height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     top: 50.5%;
     left: 50%;
     transform: translate(-50%, -90%);
